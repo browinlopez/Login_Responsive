@@ -18,3 +18,14 @@ inputs.forEach(input => {
 	input.addEventListener("focus", addcl);
 	input.addEventListener("blur", remcl);
 });
+
+$(document).ready(function () {
+
+	$('.owl-carousel').owlCarousel({
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true,
+		items: 1
+	});
+});

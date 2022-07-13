@@ -4,8 +4,21 @@
 <head>
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+	<!-- Owl-Carousel -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+		integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -13,58 +26,66 @@
 
 	<img class="wave" src="img/wave.png">
 	<div class="container">
-		<div class="img">
-			<img src="img/bg.svg">
+		
+		<div class="container-carrusel">
+			<div class="owl-carousel owl-theme">
+				<img src="../Login_Responsive/assets/1.svg" alt="" class="login_img">
+				<img src="../Login_Responsive/assets/2.svg" alt="" class="login_img">
+				<img src="../Login_Responsive/assets/3.svg" alt="" class="login_img">
+			</div>
 		</div>
-		<div class="login-content">
+		<div class="container-login">
+			<div class="login-content">
 
-			<div class="login-content-info">
+				<div class="login-content-info">
 
-				<form action="index.html">
-					<img src="img/2.png">
+					<form action="index.html">
+						<img src="assets/2.png">
 
-					<h2 class="title">Bienvenido</h2>
+						<h2 class="title">Bienvenido</h2>
 
-					<div class="input-div one">
-						<div class="i">
-							<i class="fa-solid fa-building"></i>
+						<div class="input-div one">
+							<div class="i">
+								<i class="fa-solid fa-building"></i>
+							</div>
+
+							<div class="div">
+								<h5>Empresa</h5>
+								<input type="text" class="input">
+							</div>
 						</div>
 
-						<div class="div">
-							<h5>Empresa</h5>
-							<input type="text" class="input">
-						</div>
-					</div>
+						<div class="input-div one">
+							<div class="i">
+								<i class="fas fa-user"></i>
+							</div>
 
-					<div class="input-div one">
-						<div class="i">
-							<i class="fas fa-user"></i>
-						</div>
-
-						<div class="div">
-							<h5>Usuario</h5>
-							<input type="text" class="input">
-						</div>
-					</div>
-
-					<div class="input-div pass">
-						<div class="i">
-							<i class="fas fa-lock"></i>
+							<div class="div">
+								<h5>Usuario</h5>
+								<input type="text" class="input">
+							</div>
 						</div>
 
-						<div class="div">
-							<h5>Contraseña</h5>
-							<input type="password" class="input">
-						</div>
-					</div>
+						<div class="input-div pass">
+							<div class="i">
+								<i class="fas fa-lock"></i>
+							</div>
 
-					<a href="#">Olvido su contraseña?</a>
-					<input type="submit" class="btn" value="Login">
-				</form>
+							<div class="div">
+								<h5>Contraseña</h5>
+								<input type="password" class="input">
+							</div>
+						</div>
+
+						<a href="#">Olvido su contraseña?</a>
+						<input type="submit" class="btn" value="Login">
+					</form>
+
+				</div>
 
 			</div>
-
 		</div>
+
 	</div>
 
 	<div class="footer-basic">
@@ -72,9 +93,20 @@
 			<p class="copyright">Sifosoft © todos los derechos de autor</p>
 		</footer>
 	</div>
+
+	
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
 	<script type="text/javascript" src="js/main.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+		integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
